@@ -2,5 +2,32 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+
+  display: block;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+ul {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 20px;
+}
+nav {
+  background-color: rgb(177, 237, 251);
+  height: 40px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
 }
